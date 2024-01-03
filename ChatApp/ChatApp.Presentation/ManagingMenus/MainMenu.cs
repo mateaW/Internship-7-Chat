@@ -17,8 +17,6 @@ namespace ChatApp.Presentation.ManagingMenus
             {
                 case 0:
                     Console.Title = "LOG IN";
-                    UserRepository u = new();
-                    u.LogIn();
                     SubMenu sm = new();
                     sm.ShowMainMenu();
                     break;

@@ -16,7 +16,7 @@ namespace ChatApp.Data.Entities
         public DbSet<Group> Groups => Set<Group>();
         public DbSet<GroupUser> GroupUsers => Set<GroupUser>();
         public DbSet<GroupMessage> GroupMessages => Set<GroupMessage>();
-        public DbSet<Group> Messages => Set<Group>();
+        public DbSet<Message> Messages => Set<Message>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
